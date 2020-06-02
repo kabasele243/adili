@@ -1,7 +1,7 @@
 {
-  "name": "Adili",
+  "name": "adili",
   "version": "1.0.0",
-  "description": "Adili webpage",
+  "description": "Static website from online realtor",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
