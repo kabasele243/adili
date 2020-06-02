@@ -41,13 +41,13 @@ body {
   font-style: italic;
   line-height: 1; }
   .heading-2--light {
-    color: #f9f7f6; }
+    color: #789fe7; }
   .heading-2--dark {
-    color: #ABD0CE; }
+    color: rgb(47, 149, 207); }
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #77AAAD;
+  color: #0396ff;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -58,7 +58,7 @@ body {
     color: #ABD0CE; }
 
 .btn {
-  background-color: #77AAAD;
+  background-color: #0396ff;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -84,7 +84,7 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #77AAAD;
+  background-color: #0396ff;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
@@ -173,7 +173,7 @@ body {
       filter: brightness(70%); }
 
 .realtors {
-  background-color: #101d2c;
+  background-color: black;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
   display: grid;
@@ -237,9 +237,9 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #77AAAD;
+  background-color: #0396ff;
   grid-column: full-start / col-end 4;
-  background-image: linear-gradient(rgba(119, 170, 173, 0.5), rgba(119, 170, 173, 0.5)), url(../img/back.jpg);
+  background-image: linear-gradient(rgba(30, 147, 226, 0.5), rgba(25, 131, 230, 0.5)), url(../img/back.jpg);
   background-size: cover;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
@@ -331,7 +331,7 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
-    background-color: #101d2c;
+    background-color: black;
     color: #fff;
     font-weight: 400;
     transform: translateY(50%); }
@@ -408,7 +408,7 @@ body {
     display: block; }
 
 .footer {
-  background-color: #101d2c;
+  background-color: black;
   grid-column: full-start / full-end;
   padding: 8rem; }
 
