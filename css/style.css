@@ -304,6 +304,8 @@ body {
   grid-gap: 7rem; }
 
 .home {
+  border-radius: 10%;
+  box-shadow: -1px 0px 16px 1px rgba(204,194,204,1);
   background-color: #f9f7f6;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
